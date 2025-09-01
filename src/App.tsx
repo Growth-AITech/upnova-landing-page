@@ -1,4 +1,5 @@
 import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 import Hero from './sections/Hero'
 import PainPoints from './sections/PainPoints'
 import Solution from './sections/Solution'
@@ -23,6 +24,7 @@ function App() {
         <FAQ />
         <FinalCTA />
       </main>
+      <Footer />
       {/* <WhatsAppFloat /> */}
     </div>
   )

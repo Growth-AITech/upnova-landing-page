@@ -1,6 +1,6 @@
 const Differentiator = () => {
   const traditionalPoints = [
-    "Te venden servicios mensuales",
+    "Te venden servicios genericos",
     "Dependes eternamente de ellos", 
     "Reportes mensuales aburridos",
     "Plantillas genéricas para todos",

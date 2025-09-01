@@ -25,10 +25,10 @@ const SocialProof = () => {
         
         <div className="bg-white/[0.02] rounded-2xl p-10 max-w-4xl mx-auto border border-white/[0.05] mt-10">
           <p className="text-xl italic mb-5 text-text-light">
-            "Pasamos de 20 a 150 leads calificados al mes en 60 días. El sistema de UPNOVA prácticamente maneja solo nuestro funnel de ventas"
+            "Desarrollamos junto al equipo técnico de UPNOVA una plataforma de IA para optimizar la cadena de suministro cafetera. Su dominio técnico y capacidad de innovación transformó por completo nuestros procesos de predicción y gestión de inventarios"
           </p>
           <p className="text-text-gray text-right">
-            — Director Comercial, TechCorp Colombia
+            — CEO, AC Ingeniería Virtual
           </p>
         </div>
       </div>

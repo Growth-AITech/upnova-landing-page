@@ -1,3 +1,5 @@
+import { ArrowRight } from 'lucide-react'
+
 const FinalCTA = () => {
   return (
     <section className="py-24 bg-final-gradient text-center">
@@ -12,8 +14,9 @@ const FinalCTA = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mt-10">
-          <a href="#contacto" className="cta-primary text-lg">
-            Quiero mi auditoría gratuita →
+          <a href="#contacto" className="cta-primary text-lg flex items-center justify-center gap-2">
+            Quiero mi auditoría gratuita
+            <ArrowRight size={18} />
           </a>
           <a href="#contacto" className="cta-secondary text-lg">
             Ver casos de éxito

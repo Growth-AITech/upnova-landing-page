@@ -1,16 +1,18 @@
+import { Rocket, Zap, TrendingUp, ArrowRight } from 'lucide-react'
+
 const Solution = () => {
   const pillars = [
     {
-      icon: "🚀",
+      icon: Rocket,
       title: "Automatización Inteligente",
       features: [
         "CRM con IA que califica leads automáticamente",
-        "Respuestas instantáneas 24/7",
+        "Respuestas instantáneas 24/7 con chatbots IA",
         "Workflows que nutren prospectos sin intervención"
       ]
     },
     {
-      icon: "⚡",
+      icon: Zap,
       title: "Marketing que Convierte", 
       features: [
         "Campañas optimizadas por algoritmos",
@@ -19,7 +21,7 @@ const Solution = () => {
       ]
     },
     {
-      icon: "📈",
+      icon: TrendingUp,
       title: "Escala Predecible",
       features: [
         "Dashboard unificado de métricas",
@@ -41,7 +43,9 @@ const Solution = () => {
               {/* Top gradient border */}
               <div className="absolute top-0 left-0 right-0 h-1 bg-primary-gradient"></div>
               
-              <div className="text-5xl mb-5">{pillar.icon}</div>
+              <div className="mb-5">
+                <pillar.icon size={48} className="mx-auto text-accent-blue" />
+              </div>
               
               <h3 className="text-2xl mb-4 font-semibold logo-gradient">
                 {pillar.title}
@@ -50,7 +54,7 @@ const Solution = () => {
               <ul className="list-none text-left text-text-gray space-y-2">
                 {pillar.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="py-2 pl-5 relative">
-                    <span className="absolute left-0 text-accent-blue">→</span>
+                    <ArrowRight size={16} className="absolute left-0 top-2.5 text-accent-blue" />
                     {feature}
                   </li>
                 ))}

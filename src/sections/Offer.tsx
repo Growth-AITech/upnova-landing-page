@@ -1,3 +1,5 @@
+import { Clock, ArrowRight } from 'lucide-react'
+
 const Offer = () => {
   const offerPoints = [
     "Dónde pierdes el 80% de tus ventas potenciales",
@@ -5,6 +7,19 @@ const Offer = () => {
     "Cuánto dinero dejas sobre la mesa cada mes",
     "Hoja de ruta personalizada de implementación"
   ]
+
+  // Función para obtener slots disponibles basado en la semana del año
+  const getWeeklySlots = () => {
+    const now = new Date()
+    const startOfYear = new Date(now.getFullYear(), 0, 1)
+    const weekNumber = Math.ceil(((now.getTime() - startOfYear.getTime()) / 86400000 + startOfYear.getDay() + 1) / 7)
+    
+    // Usar el número de semana como semilla para generar un número consistente entre 1-4
+    const slots = ((weekNumber - 1) % 4) + 1
+    return slots
+  }
+
+  const availableSlots = getWeeklySlots()
 
   return (
     <section className="py-20 bg-offer-gradient" id="contacto">
@@ -39,12 +54,14 @@ const Offer = () => {
               ))}
             </ul>
             
-            <a href="https://wa.link/8spcit" className="cta-primary text-xl px-12 py-5">
-              Reservar mi auditoría gratuita →
+            <a href="https://wa.link/8spcit" className="cta-primary text-xl px-12 py-5 flex items-center justify-center gap-2">
+              Reservar mi auditoría gratuita
+              <ArrowRight size={20} />
             </a>
             
-            <div className="bg-accent-orange/10 border border-accent-orange rounded-lg p-4 mt-8 text-accent-orange">
-              ⏰ Solo quedan 3 slots disponibles esta semana
+            <div className="bg-accent-orange/10 border border-accent-orange rounded-lg p-4 mt-8 text-accent-orange flex items-center justify-center gap-2">
+              <Clock size={20} />
+              Solo quedan {availableSlots} slots disponibles esta semana
             </div>
           </div>
         </div>
