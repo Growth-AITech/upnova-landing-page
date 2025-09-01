@@ -13,8 +13,8 @@ const FAQ = () => {
       answer: "Hemos automatizado desde e-commerce hasta servicios B2B complejos. La IA se adapta a tu modelo de negocio específico."
     },
     {
-      question: "¿Cuánto cuesta?",
-      answer: "Garantizamos ROI en 90 días o te devolvemos tu inversión. El costo se paga solo con el tiempo que recupera tu equipo."
+      question: "¿Qué garantías ofrecen sobre los resultados?",
+      answer: "Si no logramos reducir tu CAC (Coste de adquisición de clientes) en al menos 30% en 90 días, trabajamos 3 meses gratis en optimizaciones hasta alcanzar la mejora"
     }
   ]
 
