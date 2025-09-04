@@ -1,4 +1,5 @@
 import { Rocket, Zap, TrendingUp, ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const Solution = () => {
   const pillars = [
@@ -61,6 +62,17 @@ const Solution = () => {
               </ul>
             </div>
           ))}
+        </div>
+        
+        {/* CTA Button */}
+        <div className="flex justify-center mt-16">
+          <Link 
+            to="/propuesta-valor"
+            className="cta-primary text-lg px-12 py-4 flex items-center justify-center gap-3 group text-center"
+          >
+            Ver Propuesta de Valor Completa
+            <ArrowRight size={20} className="transition-transform duration-300 group-hover:translate-x-1" />
+          </Link>
         </div>
       </div>
     </section>
