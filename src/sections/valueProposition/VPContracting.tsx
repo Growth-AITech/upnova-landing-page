@@ -9,8 +9,8 @@ const VPContracting = () => {
     },
     {
       icon: Settings,
-      title: "Condiciones Flexibles",
-      description: "Establecemos un periodo mínimo y opciones de pago que se adaptan a las necesidades y el flujo de caja de tu negocio."
+      title: "Inversión que se Paga Sola",
+      description: "Un chatbot con IA ahorra en promedio $400 mensuales al reemplazar un agente humano. Tu inversión se recupera en 2.5-5 meses, y después genera ahorros permanentes."
     },
     {
       icon: Shield,

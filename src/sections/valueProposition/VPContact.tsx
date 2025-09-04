@@ -13,7 +13,7 @@ const VPContact = () => {
           
           <div className="bg-white/20 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
             <p className="font-semibold">
-              Es una inversión estratégica con retorno rápido (estimado en pocas semanas) que te colocará por delante de tu competencia al ofrecer atención 24/7, mensajes personalizados y decisiones basadas en datos.
+              Es una inversión estratégica con retorno rápido (estimado en pocas semanas) que te colocará por delante de tu competencia al ofrecer atención 24/7, mensajes personalizados y decisiones basadas en datos. Si tu no lo implementas, ellos lo harán, te ganarán ventaja.
             </p>
           </div>
           
