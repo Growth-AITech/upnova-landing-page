@@ -20,7 +20,7 @@ const VPSuccessStories = () => {
   ]
 
   return (
-    <section className="py-20 px-6">
+    <section id="VPSuccessStories" className="py-20 px-6">
       <div className="container">
         <h2 className="section-title">Experiencia Comprobada</h2>
         <p className="text-lg text-center mb-12 max-w-2xl mx-auto text-text-gray">

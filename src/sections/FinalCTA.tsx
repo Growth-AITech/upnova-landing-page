@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const FinalCTA = () => {
   return (
@@ -18,9 +19,9 @@ const FinalCTA = () => {
             Quiero mi auditoría gratuita
             <ArrowRight size={18} />
           </a>
-          <a href="#contacto" className="cta-secondary text-lg">
+          <Link to="/propuesta-valor#VPSuccessStories" className="cta-secondary text-lg">
             Ver casos de éxito
-          </a>
+          </Link>
         </div>
         
         <p className="text-sm text-text-gray mt-8 italic">

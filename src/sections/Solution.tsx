@@ -67,7 +67,7 @@ const Solution = () => {
         {/* CTA Button */}
         <div className="flex justify-center mt-16">
           <Link 
-            to="/propuesta-valor"
+            to="/propuesta-valor#VPHero"
             className="cta-primary text-lg px-12 py-4 flex items-center justify-center gap-3 group text-center"
           >
             Ver Propuesta de Valor Completa

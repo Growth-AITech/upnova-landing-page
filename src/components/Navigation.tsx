@@ -16,8 +16,8 @@ const Navigation = () => {
       <div className="container">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 md:gap-3">
-            <img src={Upnovalogo} alt="UpNova Logo" className="h-12 w-12 md:h-24 md:w-24" />
-            <div className="logo-gradient text-xl md:text-3xl font-bold">
+            <img src={Upnovalogo} alt="UpNova Logo" className="h-12 w-12 md:h-16 md:w-16" />
+            <div className="logo-gradient text-xl md:text-2xl font-bold">
               UPNOVA
             </div>
           </Link>

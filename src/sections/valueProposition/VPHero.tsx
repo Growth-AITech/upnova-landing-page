@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react'
 
 const VPHero = () => {
   return (
-    <section className="py-32 pb-20 bg-hero-gradient relative overflow-hidden">
+    <section id="VPHero" className="py-32 pb-20 bg-hero-gradient relative overflow-hidden">
       {/* Floating animation element */}
       <div className="absolute -top-1/2 -right-1/5 w-96 h-96 rounded-full animate-float opacity-10"
            style={{
