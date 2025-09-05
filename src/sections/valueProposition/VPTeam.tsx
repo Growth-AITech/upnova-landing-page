@@ -11,14 +11,14 @@ const VPTeam = () => {
     {
       icon: Database,
       name: "David",
-      role: "Arquitecto de Datos",
-      description: "Con años de experiencia en multinacionales, diseña la infraestructura de datos robusta y escalable que tu negocio necesita."
+      role: "Arquitecto de Software",
+      description: "Con años de experiencia en multinacionales, diseña la infraestructura de software robusta y escalable que tu negocio necesita."
     },
     {
       icon: TrendingUp,
       name: "Simon",
-      role: "Gurú Comercial & Marketing Digital",
-      description: "Con un alcance de más de 200 millones de visitas, sabe exactamente cómo crear estrategias de crecimiento orgánico que conectan y convierten."
+      role: "Ejecutivo Comercial | Marketing Digital & Crecimiento Orgánico",
+      description: "Ha logrado más de 200 millones de visitas gracias a estrategias diseñadas para escalar negocios de forma orgánica, conectando con audiencias y transformando la atención en ventas."
     }
   ]
 
