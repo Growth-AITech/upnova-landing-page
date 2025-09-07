@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "Tu Socio Estratégico en Inteligencia Artificial",
+    "subtitle": "Transformamos tu visión en resultados tangibles con IA de última generación",
+    "cta": "Descubre Cómo"
+  },
+  "problem": {
+    "title": "El Problema que Resolvemos",
+    "subtitle": "Las empresas pierden millones por no adoptar IA a tiempo",
+    "points": [
+      "Procesos ineficientes que consumen recursos",
+      "Decisiones basadas en datos incompletos",
+      "Competidores que ya usan IA para ventaja",
+      "Equipos sobrecargados con tareas manuales"
+    ]
+  },
+  "solution": {
+    "title": "Nuestra Solución Integral",
+    "subtitle": "Metodología probada que garantiza resultados desde el día uno",
+    "steps": [
+      {
+        "title": "Análisis Profundo",
+        "description": "Evaluamos tu empresa para identificar oportunidades únicas"
+      },
+      {
+        "title": "Estrategia Personalizada", 
+        "description": "Diseñamos una hoja de ruta específica para tus objetivos"
+      },
+      {
+        "title": "Implementación Rápida",
+        "description": "Desplegamos la IA en tiempo récord con mínima interrupción"
+      },
+      {
+        "title": "Optimización Continua",
+        "description": "Mejoramos constantemente para maximizar tu ROI"
+      }
+    ]
+  },
+  "uniqueValue": {
+    "title": "Lo Que Nos Hace Únicos",
+    "subtitle": "No somos solo proveedores, somos tu equipo interno de IA",
+    "values": [
+      "Experiencia en múltiples industrias",
+      "Tecnología propietaria de vanguardia", 
+      "Soporte 24/7 con expertos reales",
+      "Garantía de resultados medibles"
+    ]
+  },
+  "successStories": {
+    "title": "Historias de Éxito Reales",
+    "subtitle": "Empresas que ya transformaron su futuro con nuestra IA",
+    "stories": [
+      {
+        "company": "TechCorp",
+        "result": "300% aumento en productividad",
+        "description": "Automatizamos sus procesos críticos"
+      },
+      {
+        "company": "RetailMax",
+        "result": "45% reducción en costos",
+        "description": "Optimizamos su cadena de suministro"
+      },
+      {
+        "company": "FinanceINC",
+        "result": "90% menos errores",
+        "description": "IA predictiva en análisis financiero"
+      }
+    ]
+  },
+  "team": {
+    "title": "El Equipo Detrás de Tu Éxito",
+    "subtitle": "Expertos con décadas de experiencia combinada",
+    "cta": "Conoce al Equipo"
+  },
+  "benefits": {
+    "title": "Beneficios Garantizados",
+    "subtitle": "Resultados que puedes esperar en los primeros 90 días",
+    "items": [
+      {
+        "title": "ROI Inmediato",
+        "description": "Ve retorno de inversión desde el primer mes"
+      },
+      {
+        "title": "Escalabilidad Total",
+        "description": "Crece sin límites operativos"
+      },
+      {
+        "title": "Ventaja Competitiva",
+        "description": "Adelántate a tu competencia"
+      }
+    ]
+  },
+  "contracting": {
+    "title": "Proceso Simple y Transparente",
+    "subtitle": "Comienza en 3 pasos sencillos",
+    "steps": [
+      "Consulta gratuita de 30 minutos",
+      "Propuesta personalizada en 24h",
+      "Implementación en una semana"
+    ],
+    "cta": "Comenzar Ahora"
+  },
+  "contact": {
+    "title": "¿Listo para el Siguiente Nivel?",
+    "subtitle": "Programa una llamada gratuita con nuestros expertos",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Email empresarial", 
+      "company": "Empresa",
+      "message": "Cuéntanos sobre tu proyecto",
+      "submit": "Agendar Llamada Gratuita"
+    }
+  }
+}

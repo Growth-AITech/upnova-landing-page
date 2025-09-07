@@ -34,6 +34,9 @@ export default {
         'float': 'float 20s ease-in-out infinite',
         'burn': 'burn 1s ease-in-out infinite',
         'rotate': 'rotate 20s linear infinite',
+        'slide-up': 'slideUp 0.7s ease-out forwards',
+        'fade-in': 'fadeIn 0.5s ease-out forwards',
+        'scale-in': 'scaleIn 0.5s ease-out forwards',
       },
       keyframes: {
         float: {
@@ -47,6 +50,30 @@ export default {
         rotate: {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
+        },
+        slideUp: {
+          '0%': { 
+            opacity: '0', 
+            transform: 'translateY(30px)' 
+          },
+          '100%': { 
+            opacity: '1', 
+            transform: 'translateY(0)' 
+          },
+        },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        scaleIn: {
+          '0%': { 
+            opacity: '0', 
+            transform: 'scale(0.95)' 
+          },
+          '100%': { 
+            opacity: '1', 
+            transform: 'scale(1)' 
+          },
         },
       },
       screens: {

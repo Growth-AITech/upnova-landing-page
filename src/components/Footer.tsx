@@ -1,6 +1,8 @@
 import { Instagram } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation('common')
   return (
     <footer className="py-12 bg-dark-bg border-t border-white/10">
       <div className="container">
@@ -12,7 +14,7 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center gap-4">
-            <span className="text-text-gray">Visitanos en</span>
+            <span className="text-text-gray">{t('footer.visitUs', { defaultValue: 'Visítanos en' })}</span>
             <a 
               href="https://www.instagram.com/simonpazos_?igsh=YjRkNmZ2YjhpNzll&utm_source=qr" 
               target="_blank" 
@@ -26,7 +28,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-6 border-t border-white/[0.05] text-center">
           <p className="text-text-gray text-sm">
-            © 2025 UPNOVA. Todos los derechos reservados.
+            © 2025 UPNOVA. {t('footer.rights')}.
           </p>
         </div>
       </div>

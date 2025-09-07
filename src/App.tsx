@@ -3,6 +3,7 @@ import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import ValueProposition from './pages/ValueProposition'
+import RealEstate from './pages/RealEstate'
 //import WhatsAppFloat from './components/WhatsAppFloat'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/propuesta-valor" element={<ValueProposition />} />
+          <Route path="/real-estate" element={<RealEstate />} />
         </Routes>
         <Footer />
         {/* <WhatsAppFloat /> */}

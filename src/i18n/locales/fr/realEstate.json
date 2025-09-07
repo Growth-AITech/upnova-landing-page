@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "title": {
+      "impulsa": "Boostez",
+      "tus": "vos",
+      "ventas": "ventes immobilières",
+      "alMaximo": "au maximum"
+    },
+    "subtitle": "Plateforme intégrée qui automatise l'attribution des prospects, connecte WhatsApp et centralise les ventes pour les équipes immobilières haute performance.",
+    "stats": {
+      "conversion": {
+        "value": "+500%",
+        "label": "Augmentation des conversions"
+      },
+      "management": {
+        "value": "24/7",
+        "label": "Gestion automatisée"
+      },
+      "users": {
+        "value": "∞",
+        "label": "Utilisateurs illimités"
+      }
+    }
+  },
+  "features": {
+    "title": {
+      "funcionalidades": "Fonctionnalités",
+      "queTransforman": "qui Transforment"
+    },
+    "subtitle": "Outils avancés conçus pour maximiser votre productivité immobilière",
+    "items": {
+      "dataManagement": {
+        "title": "Gestion Stratégique des Données",
+        "description": "Centralisez toutes les informations sur les prospects, clients et propriétés sur une seule plateforme intelligente."
+      },
+      "unifiedPlatform": {
+        "title": "Plateforme Unifiée",
+        "description": "Connectez marketing, ventes et service client dans un écosystème intégré et efficace."
+      },
+      "autoDistribution": {
+        "title": "Distribution Automatique",
+        "description": "Attribuez automatiquement les prospects aux agents disponibles en utilisant des algorithmes intelligents."
+      },
+      "whatsappIntegration": {
+        "title": "Intégration WhatsApp",
+        "description": "Gérez toutes les conversations depuis une interface unifiée avec des réponses automatisées."
+      },
+      "unlimitedUsers": {
+        "title": "Utilisateurs Illimités",
+        "description": "Faites évoluer votre équipe sans limitations. Accès complet pour tous les membres de votre organisation."
+      },
+      "smartAssignment": {
+        "title": "Attribution Intelligente",
+        "description": "Système de roulette automatique qui distribue les opportunités de manière équitable et efficace."
+      }
+    },
+    "cta": "Prêt à révolutionner votre entreprise immobilière?"
+  },
+  "benefits": {
+    "title": {
+      "tecnologia": "Technologie",
+      "deVanguardia": "de Pointe"
+    },
+    "subtitle": "Outils intelligents qui révolutionnent la façon de faire des affaires immobilières",
+    "items": {
+      "aiInsights": {
+        "title": "Insights Alimentés par l'IA",
+        "description": "Algorithmes d'apprentissage automatique qui analysent les modèles comportementaux et prédisent les tendances du marché immobilier.",
+        "stats": "95% de précision prédictive"
+      },
+      "realTimeData": {
+        "title": "Données en Temps Réel",
+        "description": "Informations instantanément mises à jour sur les prix, la disponibilité et les mouvements du marché immobilier.",
+        "stats": "Mise à jour toutes les 5 min"
+      },
+      "smartPricing": {
+        "title": "Modèles de Prix Intelligents",
+        "description": "Évaluation automatique des propriétés basée sur l'analyse comparative du marché et les tendances historiques.",
+        "stats": "+40% de précision dans les évaluations"
+      },
+      "salesPipeline": {
+        "title": "Pipeline de Vente Complet",
+        "description": "Gestion intégrale du premier contact à la conclusion, avec suivi automatisé et rapports détaillés.",
+        "stats": "3x plus de conversions"
+      }
+    },
+    "aiPowered": "Alimenté par l'Intelligence Artificielle"
+  },
+  "pricing": {
+    "title": {
+      "planes": "Plans",
+      "paraCrecer": "Conçus pour Grandir"
+    },
+    "subtitle": "Choisissez le plan parfait pour votre équipe immobilière",
+    "plans": {
+      "launch": {
+        "name": "Launch",
+        "subtitle": "Pour commencer",
+        "price": "Gratuit",
+        "period": "pour toujours",
+        "description": "Parfait pour les agents individuels qui veulent essayer la plateforme",
+        "features": [
+          "Jusqu'à 50 prospects par mois",
+          "Gestion de contacts basique",
+          "Intégration WhatsApp basique",
+          "Rapports mensuels",
+          "Support par email",
+          "1 utilisateur"
+        ]
+      },
+      "connect": {
+        "name": "Connect",
+        "subtitle": "Le plus populaire",
+        "price": "250€",
+        "period": "par mois",
+        "description": "Idéal pour les équipes immobilières moyennes cherchant une automatisation complète",
+        "features": [
+          "Prospects illimités",
+          "CRM complet avec IA",
+          "API WhatsApp Business",
+          "Attribution automatique avancée",
+          "Analytics et rapports détaillés",
+          "Utilisateurs illimités",
+          "Intégration avec portails immobiliers",
+          "Support prioritaire 24/7",
+          "Formation incluse"
+        ]
+      },
+      "next": {
+        "name": "Next",
+        "subtitle": "Bientôt disponible",
+        "price": "Contact",
+        "period": "pour le prix",
+        "description": "Solution d'entreprise avec IA avancée et personnalisation complète",
+        "features": [
+          "Tout de Connect",
+          "IA prédictive avancée",
+          "Personnalisation complète",
+          "API personnalisée",
+          "Intégration ERP/CRM externe",
+          "Gestionnaire de compte dédié",
+          "SLA garanti",
+          "Marque blanche disponible"
+        ]
+      }
+    },
+    "popular": "Le Plus Populaire",
+    "comingSoon": {
+      "title": "Bientôt Disponible",
+      "subtitle": "Fonctionnalités avancées en développement"
+    },
+    "bottomText": "Besoin d'un plan personnalisé?",
+    "guarantees": [
+      "Sans engagement",
+      "Annulation gratuite",
+      "Support 24/7"
+    ]
+  }
+}

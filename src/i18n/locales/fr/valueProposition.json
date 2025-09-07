@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "Votre Partenaire Stratégique en Intelligence Artificielle",
+    "subtitle": "Nous transformons votre vision en résultats tangibles avec une IA de pointe",
+    "cta": "Découvrir Comment"
+  },
+  "problem": {
+    "title": "Le Problème que Nous Résolvons",
+    "subtitle": "Les entreprises perdent des millions en n'adoptant pas l'IA à temps",
+    "points": [
+      "Processus inefficaces qui consomment des ressources",
+      "Décisions basées sur des données incomplètes",
+      "Concurrents utilisant déjà l'IA pour leur avantage",
+      "Équipes surchargées avec des tâches manuelles"
+    ]
+  },
+  "solution": {
+    "title": "Notre Solution Complète",
+    "subtitle": "Méthodologie éprouvée qui garantit des résultats dès le premier jour",
+    "steps": [
+      {
+        "title": "Analyse Approfondie",
+        "description": "Nous évaluons votre entreprise pour identifier des opportunités uniques"
+      },
+      {
+        "title": "Stratégie Personnalisée", 
+        "description": "Nous concevons une feuille de route spécifique pour vos objectifs"
+      },
+      {
+        "title": "Implémentation Rapide",
+        "description": "Nous déployons l'IA en temps record avec une interruption minimale"
+      },
+      {
+        "title": "Optimisation Continue",
+        "description": "Nous améliorons constamment pour maximiser votre ROI"
+      }
+    ]
+  },
+  "uniqueValue": {
+    "title": "Ce Qui Nous Rend Uniques",
+    "subtitle": "Nous ne sommes pas que des fournisseurs, nous sommes votre équipe IA interne",
+    "values": [
+      "Expérience dans plusieurs industries",
+      "Technologie propriétaire de pointe", 
+      "Support 24/7 avec de vrais experts",
+      "Garantie de résultats mesurables"
+    ]
+  },
+  "successStories": {
+    "title": "Histoires de Succès Réelles",
+    "subtitle": "Entreprises qui ont déjà transformé leur avenir avec notre IA",
+    "stories": [
+      {
+        "company": "TechCorp",
+        "result": "300% d'augmentation de productivité",
+        "description": "Nous avons automatisé leurs processus critiques"
+      },
+      {
+        "company": "RetailMax",
+        "result": "45% de réduction des coûts",
+        "description": "Nous avons optimisé leur chaîne d'approvisionnement"
+      },
+      {
+        "company": "FinanceINC",
+        "result": "90% d'erreurs en moins",
+        "description": "IA prédictive dans l'analyse financière"
+      }
+    ]
+  },
+  "team": {
+    "title": "L'Équipe Derrière Votre Succès",
+    "subtitle": "Experts avec des décennies d'expérience combinée",
+    "cta": "Rencontrer l'Équipe"
+  },
+  "benefits": {
+    "title": "Bénéfices Garantis",
+    "subtitle": "Résultats que vous pouvez attendre dans les 90 premiers jours",
+    "items": [
+      {
+        "title": "ROI Immédiat",
+        "description": "Voyez le retour sur investissement dès le premier mois"
+      },
+      {
+        "title": "Évolutivité Totale",
+        "description": "Croissez sans limites opérationnelles"
+      },
+      {
+        "title": "Avantage Concurrentiel",
+        "description": "Prenez de l'avance sur votre concurrence"
+      }
+    ]
+  },
+  "contracting": {
+    "title": "Processus Simple et Transparent",
+    "subtitle": "Commencez en 3 étapes simples",
+    "steps": [
+      "Consultation gratuite de 30 minutes",
+      "Proposition personnalisée en 24h",
+      "Implémentation en une semaine"
+    ],
+    "cta": "Commencer Maintenant"
+  },
+  "contact": {
+    "title": "Prêt pour le Niveau Suivant ?",
+    "subtitle": "Planifiez un appel gratuit avec nos experts",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email professionnel", 
+      "company": "Entreprise",
+      "message": "Parlez-nous de votre projet",
+      "submit": "Planifier un Appel Gratuit"
+    }
+  }
+}

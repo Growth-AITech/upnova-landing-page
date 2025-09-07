@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "Your Strategic Partner in Artificial Intelligence",
+    "subtitle": "We transform your vision into tangible results with cutting-edge AI",
+    "cta": "Discover How"
+  },
+  "problem": {
+    "title": "The Problem We Solve",
+    "subtitle": "Companies lose millions by not adopting AI in time",
+    "points": [
+      "Inefficient processes that consume resources",
+      "Decisions based on incomplete data",
+      "Competitors already using AI for advantage",
+      "Teams overloaded with manual tasks"
+    ]
+  },
+  "solution": {
+    "title": "Our Comprehensive Solution",
+    "subtitle": "Proven methodology that guarantees results from day one",
+    "steps": [
+      {
+        "title": "Deep Analysis",
+        "description": "We evaluate your company to identify unique opportunities"
+      },
+      {
+        "title": "Personalized Strategy", 
+        "description": "We design a specific roadmap for your objectives"
+      },
+      {
+        "title": "Rapid Implementation",
+        "description": "We deploy AI in record time with minimal disruption"
+      },
+      {
+        "title": "Continuous Optimization",
+        "description": "We constantly improve to maximize your ROI"
+      }
+    ]
+  },
+  "uniqueValue": {
+    "title": "What Makes Us Unique",
+    "subtitle": "We're not just vendors, we're your internal AI team",
+    "values": [
+      "Experience across multiple industries",
+      "Cutting-edge proprietary technology", 
+      "24/7 support with real experts",
+      "Guarantee of measurable results"
+    ]
+  },
+  "successStories": {
+    "title": "Real Success Stories",
+    "subtitle": "Companies that already transformed their future with our AI",
+    "stories": [
+      {
+        "company": "TechCorp",
+        "result": "300% increase in productivity",
+        "description": "We automated their critical processes"
+      },
+      {
+        "company": "RetailMax",
+        "result": "45% cost reduction",
+        "description": "We optimized their supply chain"
+      },
+      {
+        "company": "FinanceINC",
+        "result": "90% fewer errors",
+        "description": "Predictive AI in financial analysis"
+      }
+    ]
+  },
+  "team": {
+    "title": "The Team Behind Your Success",
+    "subtitle": "Experts with decades of combined experience",
+    "cta": "Meet the Team"
+  },
+  "benefits": {
+    "title": "Guaranteed Benefits",
+    "subtitle": "Results you can expect in the first 90 days",
+    "items": [
+      {
+        "title": "Immediate ROI",
+        "description": "See return on investment from the first month"
+      },
+      {
+        "title": "Total Scalability",
+        "description": "Grow without operational limits"
+      },
+      {
+        "title": "Competitive Advantage",
+        "description": "Get ahead of your competition"
+      }
+    ]
+  },
+  "contracting": {
+    "title": "Simple and Transparent Process",
+    "subtitle": "Get started in 3 easy steps",
+    "steps": [
+      "Free 30-minute consultation",
+      "Personalized proposal in 24h",
+      "Implementation in one week"
+    ],
+    "cta": "Start Now"
+  },
+  "contact": {
+    "title": "Ready for the Next Level?",
+    "subtitle": "Schedule a free call with our experts",
+    "form": {
+      "name": "Full name",
+      "email": "Business email", 
+      "company": "Company",
+      "message": "Tell us about your project",
+      "submit": "Schedule Free Call"
+    }
+  }
+}

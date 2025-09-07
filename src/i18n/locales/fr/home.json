@@ -1,0 +1,156 @@
+{
+  "hero": {
+    "title": {
+      "transform": "Transformez",
+      "yourBusiness": "votre Entreprise",
+      "with": "avec",
+      "ai": "l'IA"
+    },
+    "subtitle": "Automatisez les processus, optimisez les ressources et développez votre entreprise avec une intelligence artificielle de pointe",
+    "cta": {
+      "primary": "Commencer Gratuitement",
+      "secondary": "Voir la Démo"
+    }
+  },
+  "painPoints": {
+    "title": "Vous Vous Reconnaissez ?",
+    "subtitle": "Voici les défis les plus courants auxquels font face les entreprises aujourd'hui",
+    "points": [
+      {
+        "title": "Processus Manuels Lents",
+        "description": "Perte de temps sur des tâches répétitives qui pourraient être automatisées"
+      },
+      {
+        "title": "Manque de Données Précises",
+        "description": "Décisions basées sur l'intuition plutôt que sur des informations fiables"
+      },
+      {
+        "title": "Évolutivité Limitée",
+        "description": "Difficulté à croître sans augmenter proportionnellement les coûts"
+      },
+      {
+        "title": "Concurrence Technologique",
+        "description": "D'autres utilisent déjà l'IA pendant que vous continuez avec des méthodes traditionnelles"
+      }
+    ]
+  },
+  "solution": {
+    "title": "La Solution Dont Vous Avez Besoin",
+    "subtitle": "Notre plateforme d'IA résout ces problèmes de manière intégrée",
+    "features": [
+      {
+        "title": "Automatisation Intelligente",
+        "description": "Éliminez les tâches répétitives et libérez du temps pour ce qui compte vraiment"
+      },
+      {
+        "title": "Analytics Avancées",
+        "description": "Prenez des décisions basées sur des données précises et une analyse prédictive"
+      },
+      {
+        "title": "Évolutivité Illimitée",
+        "description": "Développez votre entreprise sans limites avec une infrastructure qui s'adapte"
+      },
+      {
+        "title": "Avantage Concurrentiel",
+        "description": "Restez à la pointe avec la technologie d'intelligence artificielle"
+      }
+    ]
+  },
+  "socialProof": {
+    "title": "Entreprises qui Nous Font Confiance",
+    "subtitle": "Plus de 500 entreprises ont déjà transformé leur activité avec notre IA",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Entreprises Actives"
+      },
+      {
+        "value": "95%",
+        "label": "Satisfaction Client"
+      },
+      {
+        "value": "3x",
+        "label": "Augmentation Productivité"
+      },
+      {
+        "value": "24/7",
+        "label": "Support Disponible"
+      }
+    ]
+  },
+  "differentiator": {
+    "title": "Pourquoi Choisir UpNova ?",
+    "subtitle": "Nous ne sommes pas qu'un autre outil d'IA, nous sommes votre partenaire stratégique",
+    "features": [
+      {
+        "title": "IA Spécialisée",
+        "description": "Algorithmes conçus spécifiquement pour votre secteur"
+      },
+      {
+        "title": "Implémentation Rapide",
+        "description": "Actif en 24 heures, pas en mois"
+      },
+      {
+        "title": "Support Expert",
+        "description": "Équipe dédiée qui comprend votre entreprise"
+      },
+      {
+        "title": "ROI Garanti",
+        "description": "Voyez les résultats dès le premier mois ou nous vous remboursons"
+      }
+    ]
+  },
+  "offer": {
+    "title": "Commencez Votre Transformation Aujourd'hui",
+    "subtitle": "Essai gratuit de 30 jours - Sans engagement",
+    "features": [
+      "✓ Accès complet à toutes les fonctionnalités",
+      "✓ Intégration personnalisée incluse",
+      "✓ Support technique 24/7",
+      "✓ Intégration avec vos outils actuels",
+      "✓ Annulation à tout moment"
+    ],
+    "cta": "Commencer l'Essai Gratuit"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Nous répondons aux questions les plus courantes sur notre plateforme",
+    "items": [
+      {
+        "question": "À quel point est-il difficile d'implémenter l'IA dans mon entreprise ?",
+        "answer": "Très facile. Notre équipe s'occupe de tout. Vous n'avez besoin que d'une réunion initiale de 30 minutes et en 24 heures vous utiliserez la plateforme."
+      },
+      {
+        "question": "Ai-je besoin de connaissances techniques pour utiliser UpNova ?",
+        "answer": "Vous n'avez pas besoin d'être technique. Nous avons conçu notre interface pour que tout le monde puisse l'utiliser. De plus, nous incluons une formation personnalisée."
+      },
+      {
+        "question": "Comment garantissez-vous le ROI que vous promettez ?",
+        "answer": "Nous avons des métriques claires de productivité et d'automatisation. Si vous ne voyez pas d'améliorations mesurables dans le premier mois, nous vous remboursons 100% de votre investissement."
+      },
+      {
+        "question": "Qu'en est-il de mes données ? Sont-elles sécurisées ?",
+        "answer": "Sécurité absolue. Nous utilisons un chiffrement de niveau militaire, nous respectons le RGPD et ne partageons jamais vos informations avec des tiers."
+      },
+      {
+        "question": "Puis-je annuler quand je veux ?",
+        "answer": "Oui, sans pénalités. Nous croyons à gagner votre confiance chaque jour, pas dans des contrats qui vous lient."
+      }
+    ]
+  },
+  "finalCTA": {
+    "title": "Prêt à Transformer Votre Entreprise ?",
+    "subtitle": "Rejoignez les 500+ entreprises qui utilisent déjà l'IA pour croître",
+    "benefits": [
+      "🚀 Implémentation en 24 heures",
+      "📈 ROI visible dès le premier mois",
+      "🎯 IA spécialisée pour votre secteur",
+      "🔒 Sécurité et confidentialité garanties"
+    ],
+    "cta": {
+      "primary": "Commencer Maintenant - Gratuit",
+      "secondary": "Parler à un Expert"
+    },
+    "guarantee": "30 jours gratuits • Sans engagement • Support 24/7"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "title": {
+      "impulsa": "Boost",
+      "tus": "your",
+      "ventas": "real estate sales",
+      "alMaximo": "to the max"
+    },
+    "subtitle": "Comprehensive platform that automates lead assignment, connects WhatsApp and centralizes sales for high-performance real estate teams.",
+    "stats": {
+      "conversion": {
+        "value": "+500%",
+        "label": "Conversion increase"
+      },
+      "management": {
+        "value": "24/7",
+        "label": "Automated management"
+      },
+      "users": {
+        "value": "∞",
+        "label": "Unlimited users"
+      }
+    }
+  },
+  "features": {
+    "title": {
+      "funcionalidades": "Features",
+      "queTransforman": "that Transform"
+    },
+    "subtitle": "Advanced tools designed to maximize your real estate productivity",
+    "items": {
+      "dataManagement": {
+        "title": "Strategic Data Management",
+        "description": "Centralize all lead, client and property information on one intelligent platform."
+      },
+      "unifiedPlatform": {
+        "title": "Unified Platform",
+        "description": "Connect marketing, sales and customer service in an integrated and efficient ecosystem."
+      },
+      "autoDistribution": {
+        "title": "Automatic Distribution",
+        "description": "Automatically assign leads to available agents using intelligent algorithms."
+      },
+      "whatsappIntegration": {
+        "title": "WhatsApp Integration",
+        "description": "Manage all conversations from a unified interface with automated responses."
+      },
+      "unlimitedUsers": {
+        "title": "Unlimited Users",
+        "description": "Scale your team without limitations. Full access for all members of your organization."
+      },
+      "smartAssignment": {
+        "title": "Smart Assignment",
+        "description": "Automatic roulette system that distributes opportunities fairly and efficiently."
+      }
+    },
+    "cta": "Ready to revolutionize your real estate business?"
+  },
+  "benefits": {
+    "title": {
+      "tecnologia": "Cutting-edge",
+      "deVanguardia": "Technology"
+    },
+    "subtitle": "Smart tools that revolutionize the way real estate business is done",
+    "items": {
+      "aiInsights": {
+        "title": "AI-Powered Insights",
+        "description": "Machine learning algorithms that analyze behavioral patterns and predict real estate market trends.",
+        "stats": "95% predictive accuracy"
+      },
+      "realTimeData": {
+        "title": "Real-time Data",
+        "description": "Instantly updated information on prices, availability and real estate market movements.",
+        "stats": "Update every 5 min"
+      },
+      "smartPricing": {
+        "title": "Smart Pricing Models",
+        "description": "Automatic property valuation based on comparative market analysis and historical trends.",
+        "stats": "+40% accuracy in valuations"
+      },
+      "salesPipeline": {
+        "title": "Complete Sales Pipeline",
+        "description": "Comprehensive management from first contact to closing, with automated tracking and detailed reports.",
+        "stats": "3x more conversions"
+      }
+    },
+    "aiPowered": "Powered by Artificial Intelligence"
+  },
+  "pricing": {
+    "title": {
+      "planes": "Plans",
+      "paraCrecer": "Designed to Grow"
+    },
+    "subtitle": "Choose the perfect plan for your real estate team",
+    "plans": {
+      "launch": {
+        "name": "Launch",
+        "subtitle": "To get started",
+        "price": "Free",
+        "period": "forever",
+        "description": "Perfect for individual agents who want to try the platform",
+        "features": [
+          "Up to 50 leads per month",
+          "Basic contact management",
+          "Basic WhatsApp integration",
+          "Monthly reports",
+          "Email support",
+          "1 user"
+        ]
+      },
+      "connect": {
+        "name": "Connect",
+        "subtitle": "Most popular",
+        "price": "$250",
+        "period": "per month",
+        "description": "Ideal for medium-sized real estate teams seeking complete automation",
+        "features": [
+          "Unlimited leads",
+          "Complete CRM with AI",
+          "WhatsApp Business API",
+          "Advanced automatic assignment",
+          "Analytics and detailed reports",
+          "Unlimited users",
+          "Integration with real estate portals",
+          "24/7 priority support",
+          "Training included"
+        ]
+      },
+      "next": {
+        "name": "Next",
+        "subtitle": "Coming soon",
+        "price": "Contact",
+        "period": "for pricing",
+        "description": "Enterprise solution with advanced AI and complete customization",
+        "features": [
+          "Everything in Connect",
+          "Advanced predictive AI",
+          "Complete customization",
+          "Custom API",
+          "External ERP/CRM integration",
+          "Dedicated account manager",
+          "Guaranteed SLA",
+          "White-label available"
+        ]
+      }
+    },
+    "popular": "Most Popular",
+    "comingSoon": {
+      "title": "Coming Soon",
+      "subtitle": "Advanced features in development"
+    },
+    "bottomText": "Need a custom plan?",
+    "guarantees": [
+      "No commitment",
+      "Free cancellation",
+      "24/7 support"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "navigation": {
+    "home": "Home",
+    "valueProposition": "Value Proposition",
+    "realEstate": "Real Estate",
+    "contact": "Contact Now",
+    "contactShort": "Contact"
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "requestDemo": "Request Demo",
+    "scheduleDemo": "Schedule Demo",
+    "seeFeatures": "See Features",
+    "discoverAll": "Discover All Features",
+    "knowMoreTech": "Learn More Technology",
+    "customProposal": "Request Custom Proposal",
+    "startFree": "Start Free",
+    "waitingList": "Waiting List"
+  },
+  "languages": {
+    "spanish": "Español",
+    "english": "English",
+    "french": "Français"
+  },
+  "footer": {
+    "visitUs": "Visit us on",
+    "rights": "All rights reserved"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "navigation": {
+    "home": "Home",
+    "valueProposition": "Propuesta de Valor",
+    "realEstate": "Inmobiliaria",
+    "contact": "Contactar Ahora",
+    "contactShort": "Contactar"
+  },
+  "buttons": {
+    "learnMore": "Conocer Más",
+    "getStarted": "Comenzar",
+    "requestDemo": "Solicitar Demo",
+    "scheduleDemo": "Agendar Demo",
+    "seeFeatures": "Ver Funcionalidades",
+    "discoverAll": "Descubrir Todas las Funcionalidades",
+    "knowMoreTech": "Conocer Más Tecnología",
+    "customProposal": "Solicitar Propuesta Personalizada",
+    "startFree": "Comenzar Gratis",
+    "waitingList": "Lista de Espera"
+  },
+  "languages": {
+    "spanish": "Español",
+    "english": "English",
+    "french": "Français"
+  },
+  "footer": {
+    "visitUs": "Visítanos en",
+    "rights": "Todos los derechos reservados"
+  }
+}

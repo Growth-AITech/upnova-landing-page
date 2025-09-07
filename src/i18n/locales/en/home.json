@@ -1,0 +1,156 @@
+{
+  "hero": {
+    "title": {
+      "transform": "Transform",
+      "yourBusiness": "your Business",
+      "with": "with",
+      "ai": "AI"
+    },
+    "subtitle": "Automate processes, optimize resources and scale your company with cutting-edge artificial intelligence",
+    "cta": {
+      "primary": "Start Free",
+      "secondary": "Watch Demo"
+    }
+  },
+  "painPoints": {
+    "title": "Do You Feel Identified?",
+    "subtitle": "These are the most common challenges that companies face today",
+    "points": [
+      {
+        "title": "Slow Manual Processes",
+        "description": "Time wasted on repetitive tasks that could be automated"
+      },
+      {
+        "title": "Lack of Accurate Data",
+        "description": "Decisions based on intuition instead of reliable information"
+      },
+      {
+        "title": "Limited Scalability",
+        "description": "Difficulty growing without proportionally increasing costs"
+      },
+      {
+        "title": "Technological Competition",
+        "description": "Others are already using AI while you continue with traditional methods"
+      }
+    ]
+  },
+  "solution": {
+    "title": "The Solution You Need",
+    "subtitle": "Our AI platform solves these problems comprehensively",
+    "features": [
+      {
+        "title": "Intelligent Automation",
+        "description": "Eliminate repetitive tasks and free up time for what really matters"
+      },
+      {
+        "title": "Advanced Analytics",
+        "description": "Make decisions based on accurate data and predictive analysis"
+      },
+      {
+        "title": "Unlimited Scalability",
+        "description": "Grow your business without limits with infrastructure that adapts"
+      },
+      {
+        "title": "Competitive Advantage",
+        "description": "Stay at the forefront with artificial intelligence technology"
+      }
+    ]
+  },
+  "socialProof": {
+    "title": "Companies That Trust Us",
+    "subtitle": "More than 500 companies have already transformed their business with our AI",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Active Companies"
+      },
+      {
+        "value": "95%",
+        "label": "Customer Satisfaction"
+      },
+      {
+        "value": "3x",
+        "label": "Productivity Increase"
+      },
+      {
+        "value": "24/7",
+        "label": "Available Support"
+      }
+    ]
+  },
+  "differentiator": {
+    "title": "Why Choose UpNova?",
+    "subtitle": "We're not just another AI tool, we're your strategic partner",
+    "features": [
+      {
+        "title": "Specialized AI",
+        "description": "Algorithms designed specifically for your industry"
+      },
+      {
+        "title": "Rapid Implementation",
+        "description": "Active in 24 hours, not months"
+      },
+      {
+        "title": "Expert Support",
+        "description": "Dedicated team that understands your business"
+      },
+      {
+        "title": "Guaranteed ROI",
+        "description": "See results from the first month or we'll refund your money"
+      }
+    ]
+  },
+  "offer": {
+    "title": "Start Your Transformation Today",
+    "subtitle": "Try free for 30 days - No commitments",
+    "features": [
+      "✓ Full access to all features",
+      "✓ Personalized onboarding included",
+      "✓ 24/7 technical support",
+      "✓ Integration with your current tools",
+      "✓ Cancel anytime"
+    ],
+    "cta": "Start Free Trial"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "We answer the most common questions about our platform",
+    "items": [
+      {
+        "question": "How difficult is it to implement AI in my company?",
+        "answer": "Very easy. Our team takes care of everything. You just need a 30-minute initial meeting and in 24 hours you'll be using the platform."
+      },
+      {
+        "question": "Do I need technical knowledge to use UpNova?",
+        "answer": "You don't need to be technical. We designed our interface so anyone can use it. Plus, we include personalized training."
+      },
+      {
+        "question": "How do you guarantee the ROI you promise?",
+        "answer": "We have clear productivity and automation metrics. If you don't see measurable improvements in the first month, we'll refund 100% of your investment."
+      },
+      {
+        "question": "What about my data? Is it secure?",
+        "answer": "Absolute security. We use military-grade encryption, comply with GDPR and never share your information with third parties."
+      },
+      {
+        "question": "Can I cancel whenever I want?",
+        "answer": "Yes, without penalties. We believe in earning your trust every day, not in contracts that tie you down."
+      }
+    ]
+  },
+  "finalCTA": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Join the 500+ companies already using AI to grow",
+    "benefits": [
+      "🚀 Implementation in 24 hours",
+      "📈 Visible ROI from the first month",
+      "🎯 AI specialized for your industry",
+      "🔒 Security and privacy guaranteed"
+    ],
+    "cta": {
+      "primary": "Start Now - Free",
+      "secondary": "Talk to an Expert"
+    },
+    "guarantee": "30 days free • No commitments • 24/7 Support"
+  }
+}

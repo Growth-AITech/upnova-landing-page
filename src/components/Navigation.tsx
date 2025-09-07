@@ -1,11 +1,14 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import Upnovalogo from "../assets/upnova.png";
+import { useTranslation } from 'react-i18next'
+import Upnovalogo from "../assets/upnova.png"
+import LanguageSwitcher from './LanguageSwitcher'
 
 const Navigation = () => {
   const location = useLocation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { t } = useTranslation('common')
   
   return (
     <nav className="fixed top-0 w-full z-50 py-2 md:py-2 border-b border-white/10" 
@@ -22,7 +25,7 @@ const Navigation = () => {
             </div>
           </Link>
           
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4">
             {/* Navigation Tabs */}
             <div className="hidden md:flex items-center bg-white/[0.05] rounded-full p-1 border border-white/10">
               <Link 
@@ -33,7 +36,7 @@ const Navigation = () => {
                     : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
                 }`}
               >
-                Home
+                {t('navigation.home')}
               </Link>
               <Link 
                 to="/propuesta-valor" 
@@ -43,13 +46,28 @@ const Navigation = () => {
                     : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
                 }`}
               >
-                Propuesta de Valor
+                {t('navigation.valueProposition')}
               </Link>
+              <Link 
+                to="/real-estate" 
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                  location.pathname === '/real-estate' 
+                    ? 'bg-primary-gradient text-white shadow-md' 
+                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                }`}
+              >
+                {t('navigation.realEstate')}
+              </Link>
+            </div>
+
+            {/* Language Switcher */}
+            <div className="hidden md:block">
+              <LanguageSwitcher />
             </div>
             
             <a href="#contacto" className="cta-primary text-sm md:text-base px-4 py-2 md:px-8 md:py-3">
-              <span className="hidden sm:inline">Contactar Ahora</span>
-              <span className="sm:hidden">Contactar</span>
+              <span className="hidden sm:inline">{t('navigation.contact')}</span>
+              <span className="sm:hidden">{t('navigation.contactShort')}</span>
             </a>
 
             {/* Mobile Hamburger Button */}
@@ -82,7 +100,7 @@ const Navigation = () => {
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Home
+                {t('navigation.home')}
               </Link>
               <Link 
                 to="/propuesta-valor" 
@@ -93,8 +111,24 @@ const Navigation = () => {
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Propuesta de Valor
+                {t('navigation.valueProposition')}
               </Link>
+              <Link 
+                to="/real-estate" 
+                className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
+                  location.pathname === '/real-estate' 
+                    ? 'bg-primary-gradient text-white shadow-md' 
+                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('navigation.realEstate')}
+              </Link>
+              
+              {/* Mobile Language Switcher */}
+              <div className="pt-3 border-t border-white/10">
+                <LanguageSwitcher />
+              </div>
             </div>
           </div>
         </div>

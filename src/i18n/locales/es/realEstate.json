@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "title": {
+      "impulsa": "Impulsa",
+      "tus": "tus",
+      "ventas": "ventas inmobiliarias",
+      "alMaximo": "al máximo"
+    },
+    "subtitle": "Plataforma integral que automatiza la asignación de leads, conecta WhatsApp y centraliza las ventas para equipos inmobiliarios de alto rendimiento.",
+    "stats": {
+      "conversion": {
+        "value": "+500%",
+        "label": "Incremento en conversión"
+      },
+      "management": {
+        "value": "24/7",
+        "label": "Gestión automatizada"
+      },
+      "users": {
+        "value": "∞",
+        "label": "Usuarios ilimitados"
+      }
+    }
+  },
+  "features": {
+    "title": {
+      "funcionalidades": "Funcionalidades",
+      "queTransforman": "que Transforman"
+    },
+    "subtitle": "Herramientas avanzadas diseñadas para maximizar tu productividad inmobiliaria",
+    "items": {
+      "dataManagement": {
+        "title": "Gestión Estratégica de Datos",
+        "description": "Centraliza toda la información de leads, clientes y propiedades en una sola plataforma inteligente."
+      },
+      "unifiedPlatform": {
+        "title": "Plataforma Unificada",
+        "description": "Conecta marketing, ventas y servicio al cliente en un ecosistema integrado y eficiente."
+      },
+      "autoDistribution": {
+        "title": "Distribución Automática",
+        "description": "Asigna leads automáticamente a los agentes disponibles usando algoritmos inteligentes."
+      },
+      "whatsappIntegration": {
+        "title": "Integración WhatsApp",
+        "description": "Gestiona todas las conversaciones desde una interfaz unificada con respuestas automatizadas."
+      },
+      "unlimitedUsers": {
+        "title": "Usuarios Ilimitados",
+        "description": "Escala tu equipo sin limitaciones. Acceso completo para todos los miembros de tu organización."
+      },
+      "smartAssignment": {
+        "title": "Asignación Inteligente",
+        "description": "Sistema de ruleta automática que distribuye oportunidades de manera equitativa y eficiente."
+      }
+    },
+    "cta": "¿Listo para revolucionar tu negocio inmobiliario?"
+  },
+  "benefits": {
+    "title": {
+      "tecnologia": "Tecnología",
+      "deVanguardia": "de Vanguardia"
+    },
+    "subtitle": "Herramientas inteligentes que revolucionan la manera de hacer negocios inmobiliarios",
+    "items": {
+      "aiInsights": {
+        "title": "Insights Impulsados por IA",
+        "description": "Algoritmos de machine learning que analizan patrones de comportamiento y predicen tendencias del mercado inmobiliario.",
+        "stats": "95% precisión predictiva"
+      },
+      "realTimeData": {
+        "title": "Datos en Tiempo Real",
+        "description": "Información actualizada al instante sobre precios, disponibilidad y movimientos del mercado inmobiliario.",
+        "stats": "Actualización cada 5 min"
+      },
+      "smartPricing": {
+        "title": "Modelos de Precios Inteligentes",
+        "description": "Valuación automática de propiedades basada en análisis comparativo de mercado y tendencias históricas.",
+        "stats": "+40% precisión en valuaciones"
+      },
+      "salesPipeline": {
+        "title": "Pipeline de Ventas Completo",
+        "description": "Gestión integral desde el primer contacto hasta el cierre, con seguimiento automatizado y reportes detallados.",
+        "stats": "3x más conversiones"
+      }
+    },
+    "aiPowered": "Potenciado por Inteligencia Artificial"
+  },
+  "pricing": {
+    "title": {
+      "planes": "Planes",
+      "paraCrecer": "Diseñados para Crecer"
+    },
+    "subtitle": "Elige el plan perfecto para tu equipo inmobiliario",
+    "plans": {
+      "launch": {
+        "name": "Launch",
+        "subtitle": "Para empezar",
+        "price": "Gratis",
+        "period": "por siempre",
+        "description": "Perfecto para agentes individuales que quieren probar la plataforma",
+        "features": [
+          "Hasta 50 leads por mes",
+          "Gestión básica de contactos",
+          "Integración WhatsApp básica",
+          "Reportes mensuales",
+          "Soporte por email",
+          "1 usuario"
+        ]
+      },
+      "connect": {
+        "name": "Connect",
+        "subtitle": "Lo más popular",
+        "price": "$250",
+        "period": "por mes",
+        "description": "Ideal para equipos inmobiliarios medianos que buscan automatización completa",
+        "features": [
+          "Leads ilimitados",
+          "CRM completo con IA",
+          "WhatsApp Business API",
+          "Asignación automática avanzada",
+          "Analytics y reportes detallados",
+          "Usuarios ilimitados",
+          "Integración con portales inmobiliarios",
+          "Soporte prioritario 24/7",
+          "Capacitación incluida"
+        ]
+      },
+      "next": {
+        "name": "Next",
+        "subtitle": "Próximamente",
+        "price": "Contactar",
+        "period": "para precio",
+        "description": "Solución empresarial con IA avanzada y personalización completa",
+        "features": [
+          "Todo lo de Connect",
+          "IA predictiva avanzada",
+          "Personalización completa",
+          "API personalizada",
+          "Integración ERP/CRM externa",
+          "Dedicated account manager",
+          "SLA garantizado",
+          "White-label disponible"
+        ]
+      }
+    },
+    "popular": "Más Popular",
+    "comingSoon": {
+      "title": "Próximamente",
+      "subtitle": "Funcionalidades avanzadas en desarrollo"
+    },
+    "bottomText": "¿Necesitas un plan personalizado?",
+    "guarantees": [
+      "Sin compromiso",
+      "Cancelación gratuita",
+      "Soporte 24/7"
+    ]
+  }
+}
