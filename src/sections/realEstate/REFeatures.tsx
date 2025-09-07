@@ -1,9 +1,8 @@
 import { useEffect, useRef } from 'react'
-import { Database, Users, MessageCircle, Zap, BarChart3, Target } from 'lucide-react'
+import { Database, Users, MessageCircle, Zap, Target } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const REFeatures = () => {
-  const sectionRef = useRef<HTMLDivElement>(null)
   const titleRef = useRef<HTMLDivElement>(null)
   const featuresRef = useRef<HTMLDivElement>(null)
   const { t } = useTranslation('realEstate')

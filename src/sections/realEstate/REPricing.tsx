@@ -3,7 +3,6 @@ import { Check, Star, Zap } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const REPricing = () => {
-  const sectionRef = useRef<HTMLDivElement>(null)
   const titleRef = useRef<HTMLDivElement>(null)
   const cardsRef = useRef<HTMLDivElement>(null)
   const { t } = useTranslation('realEstate')
