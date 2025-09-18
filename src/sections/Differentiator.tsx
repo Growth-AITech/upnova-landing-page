@@ -1,64 +1,26 @@
-const Differentiator = () => {
-  const traditionalPoints = [
-    "Te venden servicios genericos",
-    "Dependes eternamente de ellos", 
-    "Reportes mensuales aburridos",
-    "Plantillas genéricas para todos",
-    "Cobran por hora trabajada"
-  ]
-
-  const upnovaPoints = [
-    "Te construimos sistemas propios",
-    "Te vuelves completamente autónomo",
-    "Dashboard en tiempo real 24/7", 
-    "IA entrenada para TU negocio",
-    "Cobramos por resultados reales"
+const VireoAdvantage = () => {
+  const advantagePoints = [
+    "Elimina la subjetividad del tono con análisis predictivo de IA.",
+    "Garantiza una coherencia de marca impecable en todos los canales de comunicación.",
+    "Conecta profundamente con tu audiencia, resonando con el mensaje correcto.",
+    "Diseñado para entender la fusión única de marketing y la esencia de tu música.",
+    "Libera a tu equipo creativo para enfocarse en la estrategia, no en la corrección tonal."
   ]
 
   return (
     <section className="py-20 bg-differentiator-gradient">
       <div className="container">
-        <h2 className="section-title">No somos otra agencia de marketing</h2>
+        <h2 className="section-title">La Ventaja Vireo: Autenticidad sin Compromisos.</h2>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-12 max-w-5xl mx-auto">
-          {/* Traditional Column */}
-          <div className="p-8 rounded-2xl border border-red-400/20"
-               style={{ background: 'rgba(255, 107, 107, 0.05)' }}>
-            <h3 className="text-2xl mb-6 text-center font-semibold">
-              Agencias Tradicionales
-            </h3>
-            <div className="space-y-3">
-              {traditionalPoints.map((point, index) => (
-                <div key={index} className="flex items-center gap-3 py-3 text-text-gray">
-                  <span className="text-red-400 text-xl">✗</span>
-                  <span>{point}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* UPNOVA Column */}
-          <div className="p-8 rounded-2xl border-2 relative"
-               style={{ 
-                 background: 'rgba(103, 126, 234, 0.05)',
-                 borderColor: 'rgba(103, 126, 234, 0.3)'
-               }}>
-            {/* Recommended badge */}
-            <div className="absolute -top-4 right-5 bg-primary-gradient text-white px-4 py-1 rounded-full text-xs font-bold">
-              RECOMENDADO
-            </div>
-            
-            <h3 className="text-2xl mb-6 text-center font-semibold">
-              UPNOVA
-            </h3>
-            <div className="space-y-3">
-              {upnovaPoints.map((point, index) => (
-                <div key={index} className="flex items-center gap-3 py-3 text-text-gray">
-                  <span className="text-green-400 text-xl">✓</span>
-                  <span>{point}</span>
-                </div>
-              ))}
-            </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+            {advantagePoints.map((point, index) => (
+              <div key={index}
+                   className="p-6 bg-vireo-card-subtle/30 rounded-lg border border-vireo-reflective-cyan/20 transition-all duration-300 hover:bg-vireo-reflective-cyan/10 flex items-start gap-4">
+                <span className="text-vireo-reflective-cyan text-xl flex-shrink-0 mt-1">✓</span>
+                <span className="text-vireo-soft-gray text-lg">{point}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -66,4 +28,4 @@ const Differentiator = () => {
   )
 }
 
-export default Differentiator
+export default VireoAdvantage

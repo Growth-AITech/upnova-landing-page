@@ -5,11 +5,11 @@ const FinalCTA = () => {
   return (
     <section className="py-24 bg-final-gradient text-center">
       <div className="container">
-        <h2 className="text-5xl mb-10 font-extrabold text-white">
+        <h2 className="text-5xl mb-10 font-extrabold text-vireo-soft-gray">
           ¿Listo para dominar tu mercado?
         </h2>
         
-        <p className="text-xl text-text-gray mb-10 max-w-3xl mx-auto">
+        <p className="text-xl text-vireo-soft-gray mb-10 max-w-3xl mx-auto">
           Mientras lees esto, tus competidores están automatizando. 
           No dejes que te adelanten cuando puedes ser tú quien los deje atrás.
         </p>
@@ -19,14 +19,14 @@ const FinalCTA = () => {
             Quiero mi auditoría gratuita
             <ArrowRight size={18} />
           </a>
-          <Link to="/propuesta-valor#VPSuccessStories" className="cta-secondary text-lg">
+          {/* <Link to="/propuesta-valor#VPSuccessStories" className="cta-secondary text-lg">
             Ver casos de éxito
-          </Link>
+          </Link> */}
         </div>
         
-        <p className="text-sm text-text-gray mt-8 italic">
+        {/* <p className="text-sm text-vireo-soft-gray/70 mt-8 italic">
           * Garantía de resultados o devolución del 100% de tu inversión
-        </p>
+        </p> */}
       </div>
     </section>
   )

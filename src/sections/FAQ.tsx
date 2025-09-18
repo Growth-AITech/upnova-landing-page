@@ -19,18 +19,18 @@ const FAQ = () => {
   ]
 
   return (
-    <section className="py-20 bg-dark-bg">
+    <section className="py-20 bg-vireo-deep-night">
       <div className="container">
         <h2 className="section-title">Preguntas Frecuentes</h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
           {faqs.map((faq, index) => (
             <div key={index}
-                 className="bg-white/[0.02] border border-white/[0.05] rounded-2xl p-8 transition-all duration-300 hover:bg-white/[0.04] hover:border-accent-blue/30">
-              <h3 className="text-lg font-semibold mb-4 text-text-light">
+                 className="bg-vireo-card-subtle/30 border border-vireo-reflective-cyan/10 rounded-2xl p-8 transition-all duration-300 hover:bg-vireo-reflective-cyan/10 hover:border-vireo-reflective-cyan/30">
+              <h3 className="text-lg font-semibold mb-4 text-vireo-soft-gray">
                 {faq.question}
               </h3>
-              <p className="text-text-gray leading-relaxed">
+              <p className="text-vireo-soft-gray leading-relaxed">
                 {faq.answer}
               </p>
             </div>

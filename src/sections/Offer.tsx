@@ -24,15 +24,15 @@ const Offer = () => {
   return (
     <section className="py-20 bg-offer-gradient" id="contacto">
       <div className="container">
-        <div className="bg-white/[0.02] border-2 rounded-3xl p-16 text-center max-w-4xl mx-auto relative overflow-hidden"
-             style={{ borderColor: 'rgba(103, 126, 234, 0.3)' }}>
+        <div className="bg-vireo-card-subtle/30 border-2 rounded-3xl p-16 text-center max-w-4xl mx-auto relative overflow-hidden"
+             style={{ borderColor: 'rgba(0, 255, 192, 0.3)' }}>
           
           {/* Rotating background animation */}
           <div className="absolute -top-1/2 -left-1/2 w-full h-full animate-rotate opacity-5"
                style={{
                  width: '200%',
                  height: '200%',
-                 background: 'radial-gradient(circle, rgba(103, 126, 234, 0.05) 0%, transparent 70%)'
+                 background: 'radial-gradient(circle, rgba(0, 255, 192, 0.05) 0%, transparent 70%)'
                }}>
           </div>
           
@@ -41,28 +41,28 @@ const Offer = () => {
               Auditoría Gratuita de Automatización
             </h2>
             
-            <p className="text-xl mb-8 text-text-gray">
+            <p className="text-xl mb-8 text-vireo-soft-gray">
               En solo 30 minutos descubrirás:
             </p>
             
             <ul className="list-none mb-8 space-y-3">
               {offerPoints.map((point, index) => (
-                <li key={index} className="py-3 text-text-light text-lg flex items-center justify-center gap-3">
+                <li key={index} className="py-3 text-vireo-soft-gray text-lg flex items-center justify-center gap-3">
                   <span className="text-green-400 text-xl">✓</span>
                   <span>{point}</span>
                 </li>
               ))}
             </ul>
             
-            <a href="https://wa.link/8spcit" className="cta-primary text-xl px-12 py-5 flex items-center justify-center gap-2">
+            <a href="#" className="cta-primary text-xl px-12 py-5 flex items-center justify-center gap-2">
               Reservar mi auditoría gratuita
               <ArrowRight size={20} />
             </a>
-            
-            <div className="bg-accent-orange/10 border border-accent-orange rounded-lg p-4 mt-8 text-accent-orange flex items-center justify-center gap-2">
+{/*             
+            <div className="bg-vireo-reflective-cyan/10 border border-vireo-reflective-cyan rounded-lg p-4 mt-8 text-vireo-reflective-cyan flex items-center justify-center gap-2">
               <Clock size={20} />
               Solo quedan {availableSlots} slots disponibles esta semana
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

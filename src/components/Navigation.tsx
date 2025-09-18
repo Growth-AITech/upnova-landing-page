@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import Upnovalogo from "../assets/upnova.png"
+import Vireologo from "../assets/vireoLogo.png"
 import LanguageSwitcher from './LanguageSwitcher'
 
 const Navigation = () => {
@@ -11,52 +11,52 @@ const Navigation = () => {
   const { t } = useTranslation('common')
   
   return (
-    <nav className="fixed top-0 w-full z-50 py-2 md:py-2 border-b border-white/10" 
-         style={{ 
-           background: 'rgba(15, 15, 30, 0.95)',
-           backdropFilter: 'blur(10px)' 
+    <nav className="fixed top-0 w-full z-50 py-1 md:py-1 border-b border-vireo-reflective-cyan/10"
+         style={{
+           background: 'rgba(10, 17, 22, 0.95)',
+           backdropFilter: 'blur(10px)'
          }}>
       <div className="container">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 md:gap-3">
-            <img src={Upnovalogo} alt="UpNova Logo" className="h-12 w-12 md:h-16 md:w-16" />
+            <img src={Vireologo} alt="UpNova Logo" className="h-16 w-16 md:h-20 md:w-20" />
             <div className="logo-gradient text-xl md:text-2xl font-bold">
-              UPNOVA
+              Vireo
             </div>
           </Link>
           
           <div className="flex items-center gap-4">
             {/* Navigation Tabs */}
-            <div className="hidden md:flex items-center bg-white/[0.05] rounded-full p-1 border border-white/10">
-              <Link 
-                to="/" 
+            <div className="hidden md:flex items-center bg-vireo-card-subtle/30 rounded-full p-1 border border-vireo-reflective-cyan/20">
+              <Link
+                to="/"
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  location.pathname === '/' 
-                    ? 'bg-primary-gradient text-white shadow-md' 
-                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                  location.pathname === '/'
+                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
+                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
                 }`}
               >
-                {t('navigation.home')}
+                Inicio
               </Link>
-              <Link 
-                to="/propuesta-valor" 
+              <Link
+                to="/propuesta-valor"
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  location.pathname === '/propuesta-valor' 
-                    ? 'bg-primary-gradient text-white shadow-md' 
-                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                  location.pathname === '/propuesta-valor'
+                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
+                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
                 }`}
               >
-                {t('navigation.valueProposition')}
+                VibeMatch
               </Link>
-              <Link 
-                to="/real-estate" 
+              <Link
+                to="/real-estate"
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  location.pathname === '/real-estate' 
-                    ? 'bg-primary-gradient text-white shadow-md' 
-                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                  location.pathname === '/real-estate'
+                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
+                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
                 }`}
               >
-                {t('navigation.realEstate')}
+                Funcionalidades
               </Link>
             </div>
 
@@ -66,13 +66,13 @@ const Navigation = () => {
             </div>
             
             <a href="#contacto" className="cta-primary text-sm md:text-base px-4 py-2 md:px-8 md:py-3">
-              <span className="hidden sm:inline">{t('navigation.contact')}</span>
-              <span className="sm:hidden">{t('navigation.contactShort')}</span>
+              <span className="hidden sm:inline">Acceso Anticipado</span>
+              <span className="sm:hidden">Demo</span>
             </a>
 
             {/* Mobile Hamburger Button */}
-            <button 
-              className="md:hidden p-2 text-white hover:text-primary-purple transition-colors"
+            <button
+              className="md:hidden p-2 text-vireo-soft-gray hover:text-vireo-reflective-cyan transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -84,49 +84,49 @@ const Navigation = () => {
       
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-darker-bg border-b border-white/10"
-             style={{ 
-               background: 'rgba(15, 15, 30, 0.98)',
-               backdropFilter: 'blur(10px)' 
+        <div className="md:hidden absolute top-full left-0 w-full bg-vireo-deep-night border-b border-vireo-reflective-cyan/10"
+             style={{
+               background: 'rgba(10, 17, 22, 0.98)',
+               backdropFilter: 'blur(10px)'
              }}>
           <div className="container py-4">
             <div className="flex flex-col space-y-3">
-              <Link 
-                to="/" 
+              <Link
+                to="/"
                 className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
-                  location.pathname === '/' 
-                    ? 'bg-primary-gradient text-white shadow-md' 
-                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                  location.pathname === '/'
+                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
+                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                {t('navigation.home')}
+                Inicio
               </Link>
-              <Link 
-                to="/propuesta-valor" 
+              <Link
+                to="/propuesta-valor"
                 className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
-                  location.pathname === '/propuesta-valor' 
-                    ? 'bg-primary-gradient text-white shadow-md' 
-                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                  location.pathname === '/propuesta-valor'
+                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
+                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                {t('navigation.valueProposition')}
+                VibeMatch
               </Link>
-              <Link 
-                to="/real-estate" 
+              <Link
+                to="/real-estate"
                 className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
-                  location.pathname === '/real-estate' 
-                    ? 'bg-primary-gradient text-white shadow-md' 
-                    : 'text-text-gray hover:text-white hover:bg-white/[0.05]'
+                  location.pathname === '/real-estate'
+                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
+                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
                 }`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                {t('navigation.realEstate')}
+                Funcionalidades
               </Link>
               
               {/* Mobile Language Switcher */}
-              <div className="pt-3 border-t border-white/10">
+              <div className="pt-3 border-t border-vireo-reflective-cyan/10">
                 <LanguageSwitcher />
               </div>
             </div>
