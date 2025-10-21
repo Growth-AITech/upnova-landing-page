@@ -11,8 +11,6 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/propuesta-valor" element={<ValueProposition />} />
-          <Route path="/real-estate" element={<RealEstate />} /> */}
         </Routes>
         <Footer />
         {/* <WhatsAppFloat /> */}

@@ -1,14 +1,12 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import { useTranslation } from 'react-i18next'
 import Vireologo from "../assets/vireoLogo.png"
 import LanguageSwitcher from './LanguageSwitcher'
 
 const Navigation = () => {
   const location = useLocation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const { t } = useTranslation('common')
   
   return (
     <nav className="fixed top-0 w-full z-50 py-1 md:py-1 border-b border-vireo-reflective-cyan/10"
@@ -19,7 +17,7 @@ const Navigation = () => {
       <div className="container">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 md:gap-3">
-            <img src={Vireologo} alt="UpNova Logo" className="h-16 w-16 md:h-20 md:w-20" />
+            <img src={Vireologo} alt="Vireo Logo" className="h-16 w-16 md:h-20 md:w-20" />
             <div className="logo-gradient text-xl md:text-2xl font-bold">
               Vireo
             </div>
@@ -37,26 +35,6 @@ const Navigation = () => {
                 }`}
               >
                 Inicio
-              </Link>
-              <Link
-                to="/propuesta-valor"
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  location.pathname === '/propuesta-valor'
-                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
-                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
-                }`}
-              >
-                VibeMatch
-              </Link>
-              <Link
-                to="/real-estate"
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  location.pathname === '/real-estate'
-                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
-                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
-                }`}
-              >
-                Funcionalidades
               </Link>
             </div>
 
@@ -101,28 +79,6 @@ const Navigation = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Inicio
-              </Link>
-              <Link
-                to="/propuesta-valor"
-                className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
-                  location.pathname === '/propuesta-valor'
-                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
-                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
-                }`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                VibeMatch
-              </Link>
-              <Link
-                to="/real-estate"
-                className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
-                  location.pathname === '/real-estate'
-                    ? 'bg-vireo-reflective-cyan text-vireo-deep-night shadow-md'
-                    : 'text-vireo-soft-gray hover:text-vireo-reflective-cyan hover:bg-vireo-reflective-cyan/10'
-                }`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Funcionalidades
               </Link>
               
               {/* Mobile Language Switcher */}

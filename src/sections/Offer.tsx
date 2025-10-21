@@ -1,4 +1,4 @@
-import { Clock, ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 
 const Offer = () => {
   const offerPoints = [
@@ -8,18 +8,6 @@ const Offer = () => {
     "Hoja de ruta personalizada de implementación"
   ]
 
-  // Función para obtener slots disponibles basado en la semana del año
-  const getWeeklySlots = () => {
-    const now = new Date()
-    const startOfYear = new Date(now.getFullYear(), 0, 1)
-    const weekNumber = Math.ceil(((now.getTime() - startOfYear.getTime()) / 86400000 + startOfYear.getDay() + 1) / 7)
-    
-    // Usar el número de semana como semilla para generar un número consistente entre 1-4
-    const slots = ((weekNumber - 1) % 4) + 1
-    return slots
-  }
-
-  const availableSlots = getWeeklySlots()
 
   return (
     <section className="py-20 bg-offer-gradient" id="contacto">
