@@ -14,21 +14,21 @@ const Hero = () => {
         <div className="text-center relative z-10">
           <h1 className="text-gradient font-extrabold mb-5 leading-tight"
               style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}>
-            Vireo. Encuentra la Verdadera Frecuencia de Tu Marca.
+            Servicios de IA y VibeMatch: Automatiza y Armoniza tu Negocio.
           </h1>
-          
+
           <p className="text-xl text-vireo-soft-gray mb-8 font-normal">
-            Vireo VibeMatch asegura que cada mensaje de tu marca resuene con una coherencia tonal perfecta. Autenticidad inconfundible, potenciada por IA.
+            Ofrecemos servicios completos de automatización con IA para escalar tu negocio, además de VibeMatch, nuestra herramienta especializada en encontrar la frecuencia perfecta de tu marca. Desde chatbots inteligentes hasta análisis predictivo, transformamos tu operación con tecnología de vanguardia.
           </p>
           
           <a href="#contacto" className="cta-primary text-lg flex items-center justify-center gap-2">
-            Empieza a Armonizar Hoy
+            Empieza Hoy
             <ArrowRight size={18} />
           </a>
           
           <div className="urgency mt-5 text-vireo-reflective-cyan text-base flex items-center justify-center gap-2">
             <span className="animate-burn text-xl"></span>
-            <span>Acceso exclusivo para early adopters</span>
+            {/* <span>Acceso exclusivo para early adopters</span> */}
           </div>
         </div>
       </div>

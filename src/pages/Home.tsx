@@ -1,6 +1,6 @@
 import Hero from '../sections/Hero'
-import AboutUs from '../sections/PainPoints'
 import VibeMatchFeatures from '../sections/Solution'
+import Services from '../sections/Services'
 import VireoAdvantage from '../sections/Differentiator'
 import Offer from '../sections/Offer'
 import FAQ from '../sections/FAQ'
@@ -10,7 +10,8 @@ const Home = () => {
   return (
     <main>
       <Hero />
-      <AboutUs />
+      {/* <AboutUs /> */}
+      <Services />
       <VibeMatchFeatures />
       <VireoAdvantage />
       <Offer />

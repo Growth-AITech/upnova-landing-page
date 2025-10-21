@@ -17,11 +17,6 @@ const LanguageSwitcher = () => {
       code: 'en',
       name: t('languages.english'),
       flag: '🇺🇸'
-    },
-    {
-      code: 'fr',
-      name: t('languages.french'),
-      flag: '🇫🇷'
     }
   ]
 

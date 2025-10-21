@@ -15,7 +15,7 @@ const FinalCTA = () => {
         
         <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mt-10">
           <a href="#contacto" className="cta-primary text-lg flex items-center justify-center gap-2">
-            Quiero mi auditoría gratuita
+            Quiero discutirlo ahora
             <ArrowRight size={18} />
           </a>
           {/* <Link to="/propuesta-valor#VPSuccessStories" className="cta-secondary text-lg">

@@ -30,7 +30,7 @@ const VibeMatchFeatures = () => {
       <div className="container">
         <h2 className="section-title">VibeMatch: Tu Arquitecto de Tono Impulsado por IA.</h2>
         <p className="text-center text-xl text-vireo-soft-gray mb-12 max-w-3xl mx-auto">
-          Descubre cómo Vireo VibeMatch te da el control absoluto sobre la resonancia emocional de tu marca.
+          Después de nuestros servicios de automatización, VibeMatch asegura que cada mensaje de tu marca resuene con coherencia tonal perfecta. La combinación ideal: servicios completos + herramienta especializada.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12">
