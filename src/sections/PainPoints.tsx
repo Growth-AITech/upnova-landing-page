@@ -1,34 +1,27 @@
-const PainPoints = () => {
-  const painPoints = [
-    "Pierdes leads porque nadie les da seguimiento a tiempo",
-    "Tu equipo hace copy-paste de mensajes todo el día", 
-    "No sabes qué campañas realmente generan ROI",
-    "Tus vendedores olvidan hacer follow-up",
-    "Gastas fortunas en ads sin sistema de conversión",
-    "Tu competencia responde en segundos, tú en horas"
+const AboutUs = () => {
+  const aboutPoints = [
+    "En el ruido digital, la coherencia lo es todo. Vireo VibeMatch elimina la subjetividad, garantizando que cada pieza de tu contenido refleje la verdadera esencia de tu marca.",
+    "Nuestra IA de vanguardia aprende el 'vibe' único de tu marca o música, actuando como tu arquitecto tonal personal para una comunicación ininterrumpida y auténtica.",
+    "De la primera nota al último tweet, aseguramos que tu mensaje resuene con una precisión emocional sin precedentes."
   ]
 
   return (
-    <section className="py-20 bg-dark-bg">
+    <section className="py-20 bg-vireo-deep-night">
       <div className="container">
-        <h2 className="section-title">¿Te suena familiar?</h2>
+        <h2 className="section-title">La Ciencia de las Marcas Inconfundibles.</h2>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-          {painPoints.map((pain, index) => (
-            <div key={index} 
-                 className="flex items-start gap-4 p-5 bg-white/[0.02] rounded-lg border border-white/[0.05] transition-all duration-300 hover:bg-white/[0.04] hover:translate-x-1">
-              <span className="text-red-400 text-2xl flex-shrink-0">✗</span>
-              <span className="text-text-gray text-base">{pain}</span>
+        <div className="max-w-4xl mx-auto space-y-8">
+          {aboutPoints.map((point, index) => (
+            <div key={index}
+                 className="p-6 bg-vireo-card-subtle/30 rounded-lg border border-vireo-reflective-cyan/10 transition-all duration-300 hover:bg-vireo-reflective-cyan/10">
+              <p className="text-vireo-soft-gray text-lg leading-relaxed">{point}</p>
             </div>
           ))}
         </div>
         
-        <p className="text-center text-lg text-accent-orange italic mt-10">
-          "Cada minuto sin automatización es dinero que tu competencia está ganando"
-        </p>
       </div>
     </section>
   )
 }
 
-export default PainPoints
+export default AboutUs
