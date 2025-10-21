@@ -138,12 +138,70 @@
       }
     ]
   },
+  "services": {
+    "mainTitle": {
+      "part1": "Soluciones de Growth IA",
+      "part2": "para Escalar",
+      "part3": "tu Negocio"
+    },
+    "subtitle": "Dejá de hacer tareas manuales. Hacemos que la Inteligencia Artificial trabaje para vos, desde la captación hasta la conversión.",
+    "mainServices": {
+      "title": "Automatización Inteligente: Tu Fuerza de Ventas 24/7",
+      "description": "Nos enfocamos en lo que más importa: capturar y calificar leads sin fricción. Nuestros agentes de IA trabajan 24/7 para que tu equipo humano solo se dedique a cerrar ventas.",
+      "cards": {
+        "chatbots": {
+          "title": "Chatbots que Convierten",
+          "description": "No solo responden preguntas. Nuestros agentes de IA están entrenados para entender la intención de tu cliente, calificarlo (Lead Scoring) y guiarlo hacia la compra, todo en tiempo real."
+        },
+        "voiceBots": {
+          "title": "Llamadas con IA (Voice Bots)",
+          "description": "Automatizá llamadas de bienvenida, confirmación de citas, recordatorios o encuestas. Usamos voces ultra-realistas que mejoran la experiencia del cliente y liberan a tu equipo."
+        },
+        "smartAgenda": {
+          "title": "Agenda Automática e Inteligente",
+          "description": "Olvidate del \"ping-pong\" de emails. Implementamos agentes que leen tu calendario, negocian horarios con el cliente por chat o email y agendan la reunión por vos."
+        }
+      }
+    },
+    "intermediateServices": {
+      "title": "Impulso Digital y Estrategia IA",
+      "description": "Atraemos tráfico de calidad y lo preparamos para la conversión. Creamos el \"embudo\" completo para que tus agentes de IA (Bloque 1) tengan leads con quién hablar.",
+      "cards": {
+        "seoContent": {
+          "title": "Contenido SEO que Atrae",
+          "description": "Usamos IA para detectar tendencias y palabras clave, y nuestro equipo creativo produce el contenido (artículos, guiones, posts) que te posiciona como líder en tu industria."
+        },
+        "landingPages": {
+          "title": "Landing Pages de Alta Conversión",
+          "description": "Diseñamos páginas de aterrizaje rápidas, persuasivas y enfocadas 100% en una acción: que el cliente deje sus datos. Es el combustible para tus Agentes de IA."
+        },
+        "aiStack": {
+          "title": "Tu \"AI Stack\" a Medida",
+          "description": "¿No sabés por dónde empezar? Auditamos tus procesos actuales y diseñamos el \"stack\" (conjunto) de herramientas de IA perfecto para tus objetivos de crecimiento."
+        }
+      }
+    },
+    "advancedServices": {
+      "title": "Inteligencia de Negocio y Modelos a Medida",
+      "description": "Para empresas que no solo quieren automatizar, sino predecir. Transformamos tus datos crudos en decisiones de negocio rentables.",
+      "cards": {
+        "predictiveAI": {
+          "title": "Inteligencia Predictiva",
+          "description": "Creamos modelos de IA a medida para tu producto. Anticipate al churn (abandono de clientes), optimizá precios o identificá tus mejores clientes antes que la competencia."
+        },
+        "dashboards": {
+          "title": "Dashboards Accionables",
+          "description": "No más reportes en Excel. Creamos paneles de control (dashboards) en vivo que te muestran las métricas que importan, cuándo importan."
+        }
+      }
+    }
+  },
   "finalCTA": {
     "title": "¿Listo para Transformar tu Negocio?",
     "subtitle": "Únete a las 500+ empresas que ya están usando IA para crecer",
     "benefits": [
       "🚀 Implementación en 24 horas",
-      "📈 ROI visible desde el primer mes", 
+      "📈 ROI visible desde el primer mes",
       "🎯 IA especializada para tu industria",
       "🔒 Seguridad y privacidad garantizada"
     ],

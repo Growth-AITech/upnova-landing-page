@@ -10,7 +10,7 @@ const VireoAdvantage = () => {
   return (
     <section className="py-20 bg-differentiator-gradient">
       <div className="container">
-        <h2 className="section-title">La Ventaja Vireo: Autenticidad sin Compromisos.</h2>
+        <h2 className="section-title">La Ventaja Vireo: Servicios Completos + VibeMatch para Resultados Excepcionales.</h2>
         
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">

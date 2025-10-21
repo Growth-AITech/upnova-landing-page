@@ -8,9 +8,6 @@ import homeES from './locales/es/home.json'
 import commonEN from './locales/en/common.json'
 import homeEN from './locales/en/home.json'
 
-import commonFR from './locales/fr/common.json'
-import homeFR from './locales/fr/home.json'
-
 const resources = {
   es: {
     common: commonES,
@@ -19,10 +16,6 @@ const resources = {
   en: {
     common: commonEN,
     home: homeEN,
-  },
-  fr: {
-    common: commonFR,
-    home: homeFR,
   },
 }
 

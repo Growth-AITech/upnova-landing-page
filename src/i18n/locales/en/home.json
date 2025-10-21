@@ -138,6 +138,64 @@
       }
     ]
   },
+  "services": {
+    "mainTitle": {
+      "part1": "Growth AI Solutions",
+      "part2": "to Scale",
+      "part3": "Your Business"
+    },
+    "subtitle": "Stop doing manual tasks. We make Artificial Intelligence work for you, from capture to conversion.",
+    "mainServices": {
+      "title": "Intelligent Automation: Your 24/7 Sales Force",
+      "description": "We focus on what matters most: capturing and qualifying leads without friction. Our AI agents work 24/7 so your human team can only focus on closing sales.",
+      "cards": {
+        "chatbots": {
+          "title": "Converting Chatbots",
+          "description": "They don't just answer questions. Our AI agents are trained to understand your customer's intent, qualify them (Lead Scoring) and guide them towards purchase, all in real time."
+        },
+        "voiceBots": {
+          "title": "AI Calls (Voice Bots)",
+          "description": "Automate welcome calls, appointment confirmations, reminders or surveys. We use ultra-realistic voices that improve customer experience and free up your team."
+        },
+        "smartAgenda": {
+          "title": "Automatic and Intelligent Agenda",
+          "description": "Forget the email \"ping-pong\". We implement agents that read your calendar, negotiate schedules with the customer via chat or email and schedule the meeting for you."
+        }
+      }
+    },
+    "intermediateServices": {
+      "title": "Digital Boost and AI Strategy",
+      "description": "We attract quality traffic and prepare it for conversion. We create the complete \"funnel\" so your AI agents (Block 1) have leads to talk to.",
+      "cards": {
+        "seoContent": {
+          "title": "SEO Content that Attracts",
+          "description": "We use AI to detect trends and keywords, and our creative team produces the content (articles, scripts, posts) that positions you as a leader in your industry."
+        },
+        "landingPages": {
+          "title": "High Conversion Landing Pages",
+          "description": "We design fast, persuasive landing pages focused 100% on one action: getting the customer to leave their data. It's the fuel for your AI Agents."
+        },
+        "aiStack": {
+          "title": "Your Custom \"AI Stack\"",
+          "description": "Don't know where to start? We audit your current processes and design the perfect \"stack\" (set) of AI tools for your growth objectives."
+        }
+      }
+    },
+    "advancedServices": {
+      "title": "Business Intelligence and Custom Models",
+      "description": "For companies that not only want to automate, but predict. We transform your raw data into profitable business decisions.",
+      "cards": {
+        "predictiveAI": {
+          "title": "Predictive Intelligence",
+          "description": "We create custom AI models for your product. Anticipate churn (customer abandonment), optimize prices or identify your best customers before the competition."
+        },
+        "dashboards": {
+          "title": "Actionable Dashboards",
+          "description": "No more Excel reports. We create live control panels that show you the metrics that matter, when they matter."
+        }
+      }
+    }
+  },
   "finalCTA": {
     "title": "Ready to Transform Your Business?",
     "subtitle": "Join the 500+ companies already using AI to grow",

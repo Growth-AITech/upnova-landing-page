@@ -39,14 +39,9 @@ const Navigation = () => {
             </div>
 
             {/* Language Switcher */}
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <LanguageSwitcher />
-            </div>
-            
-            <a href="#contacto" className="cta-primary text-sm md:text-base px-4 py-2 md:px-8 md:py-3">
-              <span className="hidden sm:inline">Acceso Anticipado</span>
-              <span className="sm:hidden">Demo</span>
-            </a>
+            </div> */}
 
             {/* Mobile Hamburger Button */}
             <button
